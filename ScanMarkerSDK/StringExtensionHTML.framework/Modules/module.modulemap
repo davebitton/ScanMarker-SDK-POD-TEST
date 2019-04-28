@@ -1,0 +1,11 @@
+framework module StringExtensionHTML {
+  umbrella header "StringExtensionHTML-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StringExtensionHTML.Swift {
+    header "StringExtensionHTML-Swift.h"
+    requires objc
+}

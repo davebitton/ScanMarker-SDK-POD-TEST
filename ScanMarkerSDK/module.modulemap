@@ -1,0 +1,8 @@
+module ScanMarkerSDKPrivate{
+  header "ScanMarkerSDK/License/ScanMarkerLicensing.hpp"
+  header "ScanMarkerSDK/Models/Decoder/Decoder.h"
+  header "ScanMarkerSDK/Models/HebrewDllLibrary/HebrewDllLibrary.h"
+  header "ScanMarkerSDK/Models/TextImageAnalyzing/TextImageAnalyzing.h"
+  header "ScanMarkerSDK/Models/OCR/OCRHeaders/iPhone/MocrEngine.h"
+  export *
+}
